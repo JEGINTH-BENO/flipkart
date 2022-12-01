@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+</body>
+
+<div class="container-fluid p-4 bg-primary  ">
+  <div class="row mt-1 col-12 col-lg-1">
+    <div class="col-lg-7 col-sm-12 d-flex gap-3  ">
+      <img class="flipkart" src="./flipkart-logo.png " width="100px">
+      <input type="search" class="form-control" placeholder="search for products,brands and more... "
+        id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="col-lg-5 d-flex">
+
+      <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        login
+      </button>
+
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title " id="exampleModalLabel">LOGIN </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Enter email/mobile number</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Enter password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <p class="form-text">By continuing, you agree to Flipkart's <small class="text-primary">Terms of
+                      Use</small>and <small class="text-primary">Privacy Policy.</small></p>
+                </div>
+                <button type="submit" class="btn btn-warning col-12">LOGIN</button>
+                <h6 class="text-center p-2">OR</h6>
+                <button type="submit" class="btn btn-light col-9 ms-5 text-primary">Request OTP</button>
+                <div>
+                  <center class="text-primary p-5">New to Flipkart? Create an account</center>
+                </div>
+
+              </form>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <a class="navbar-brand text-light ms-5 fs-6 " href="#">Become a Seller</a>
+      <div class="dropdown">
+        <button class="btn text-light dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          more
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">notification</a></li>
+          <li><a class="dropdown-item" href="#">24*7 customer care</a></li>
+          <li><a class="dropdown-item" href="#">Advertise</a></li>
+          <li><a class="dropdown-item" href="#">download app</a></li>
+        </ul>
+      </div>
+      <a class="navbar-brand text-light ms-4 fs-5" href="#">🛒cart</a>
+
+    </div>
+
+
+
+
+  </div>
+</div>
+<!-- small title -->
+<section class="container-fluid col-lg-12 col-sm-6 bg-light category">
+  <ul class="d-flex gap-2  list-unstyled ">
+    <li >
+      <img src="./topoffer.webp"><br>
+      <a class="text-dark nav-link word ">top offer</a>
+    </li>
+    <li>
+      <img src="./grocery.webp"><br>
+      <a class="text-dark nav-link word">Grocery</a>
+    </li>
+    <li>
+      <img src="./mobile.webp"><br>
+      <a class="text-dark nav-link word">Mobile</a>
+    </li>
+    <li>
+      <img src="./fashion.webp"><br>
+      <a class="text-dark nav-link word">fashion</a>
+    </li>
+    <li>
+      <img src="./ek.webp"><br>
+      <a class="text-dark nav-link word">electronics</a>
+    </li>
+    <li>
+      <img src="./home.webp"><br>
+      <a class="text-dark nav-link word">home</a>
+    </li>
+    <li>
+      <img src="./applications.webp"><br>
+      <a class="text-dark nav-link word">Appliances</a>
+    </li>
+    <li>
+      <img src="./travels.webp"><br>
+      <a class="text-dark nav-link word">Travels</a>
+    </li>
+    <li>
+      <img src="./beauty.webp"><br>
+      <a class="text-dark nav-link word">Beauty,Toys & more</a>
+    </li>
+    <li>
+      <img src="./2-wheelers.webp"><br>
+      <a class="text-dark nav-link word">2-wheelers</a>
+    </li>
+  </ul>
+
+</section>
+<!-- corosal page -->
+<div>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./vanakam.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./google.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./moto.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- card page -->
+<div class="container  ">
+  <div class="row gap-5 mt-4">
+
+    <div class="card" style="width: 18rem;">
+      <img src="./printer.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">HP Printers</h5>
+        <p class="card-text text-success"> min 30% off</p>
+        <a href="#" class="btn btn-primary"><del>Rs.50000</del></a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./cycle.webp" class="card-img-top mt-4" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Hero Cycles</h5>
+        <p class="card-text text-sucess">upto 60% off</p>
+        <a href="#" class="btn btn-primary mt-1"><del>Rs.20000</del></a>
+      </div>
+    </div>
+    <div class="card " style="width: 18rem;">
+      <img src="./baby gear.webp" class="card-img-top p-2" alt="..." height="200px" width="50px">
+      <div class="card-body ">
+        <h5 class="card-title">baby gear</h5>
+        <p class="card-text text-success">upto 50% off</p>
+        <a href="#" class="btn btn-primary"><del>Rs.10000</del></a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./car lubricant.webp" class="card-img-top" alt="..." height="200px" width="50px">
+      <div class="card-body">
+        <h5 class="card-title">car lubricant</h5>
+        <p class="card-text">upto 40% off</p>
+        <a href="#" class="btn btn-primary"><del>Rs.459</del></a>
+      </div>
+    </div>
+
+  </div>
+  <div class="row gap-5 mt-4">
+    <div class="card" style="width: 18rem;">
+      <img src="./printer.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">HP Printers</h5>
+        <p class="card-text text-success"> min 30% off</p>
+        <a href="#" class="btn btn-primary"><del>Rs.50000</del></a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./cycle.webp" class="card-img-top mt-4" alt="...">
+      <div class="card-body">
+        <h5 class="card-title fw-bold">Hero Cycles</h5>
+        <p class="card-text text-sucess">upto 60% off</p>
+        <a href="#" class="btn btn-primary mt-1"><del>Rs.20000</del></a>
+      </div>
+    </div>
+    <div class="card " style="width: 18rem;">
+      <img src="./baby gear.webp" class="card-img-top p-2" alt="..." height="200px" width="50px">
+      <div class="card-body ">
+        <h5 class="card-title">baby gear</h5>
+        <p class="card-text text-success">upto 50% off</p>
+        <a href="#" class="btn btn-primary"><del>Rs.10000</del></a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./car lubricant.webp" class="card-img-top" alt="..." height="200px" width="50px">
+      <div class="card-body">
+        <h5 class="card-title">car lubricant</h5>
+        <p class="card-text">upto 40% off</p>
+        <a href="#" class="btn btn-primary"><del>Rs.459</del></a>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+<!-- footer -->
+
+<div class="container-fluid bg-dark">
+  <div class="row">
+    <div class="col-2 col-lg-2 col-xs-12 ">
+      <h6 class="text-secondary">About</h6>
+      <ul class="text-light list-unstyled fs-6">
+       <li><a>contact us</a></li>
+       <li><a>About Us</a></li> 
+       <li><a>Careers</a></li> 
+       <li><a>Flipkart Stories</a></li> 
+       <li><a>Press</a></li> 
+       <li><a>Flipkart Wholesale</a></li> 
+       <li> <a>Corporate Information</a></li>
+      </ul>
+    </div>
+    <div class="col-2 col-lg-2 col-xs-12">
+      <h6 class="text-secondary">Help</h6>
+      <ul class="text-light list-unstyled fs-6">
+       <li> <a> Payment</a></li>
+       <li><a>Shipping</a></li> 
+       <li><a>Cancellation & return</a></li> 
+       <li><a>FAQ</a></li> 
+       <li><a>Report Infrigment</a></li> 
+      </ul>
+
+    </div>
+    <div class="col-2 col-lg-2 col-xs-12">
+      <h6 class="text-secondary">Policy</h6>
+      <ul class="text-light list-unstyled fs-6">
+       <li> <a>Return Policy</a></li>
+       <li><a> Terms & Services</a></li> 
+       <li><a>Security</a></li> 
+       <li><a>Privacy</a></li> 
+       <li><a>Sitemap</a></li> 
+       <li><a>EPR complies</a></li> 
+      </ul>
+
+    </div>
+    <div class="col-2 col-lg-2 col-xs-12">
+      <h6 class="text-secondary">SOCIAL</h6>
+      <ul class="text-light list-unstyled fs-6">
+       <li> <a>Facebook</a></li>
+       <li><a> Twitter</a></li> 
+       <li><a>You Tube</a></li> 
+
+    </div>
+    <div class="col-2">
+
+    </div>
+    <div class="col-2">
+
+    </div>
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
